@@ -1,5 +1,5 @@
 {
-  "name": "angular-template",
+  "name": "okta-angular-app",
   "version": "1.0.0",
   "author": "Adrian Lazar",
   "scripts": {
@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^8.1.2",
     "@angular/platform-browser-dynamic": "^8.1.2",
     "@angular/router": "^8.1.2",
+    "@okta/okta-auth-js": "^2.6.1",
+    "@okta/okta-signin-widget": "^3.0.6",
     "core-js": "^3.1.4",
     "rxjs": "^6.5.2",
     "zone.js": "^0.9.1"

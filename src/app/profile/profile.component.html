@@ -1,0 +1,18 @@
+<h2>Welcome {{user.claims.email}}</h2>
+<a [routerLink]="['/']">Home</a>
+<br>
+<div id="tokens">
+    <h3>Tokens</h3>
+    <ul>
+        <li><strong>accessToken:</strong> <p id="token">{{user.accessToken.accessToken}}</p></li>
+        <li><strong>idToken:</strong> <p id="token">{{user.idToken.idToken}}</p></li>
+    </ul>
+    <br>
+</div>
+
+<div id="claims">
+    <h3>Claims</h3>
+    <ul>
+        <li>Something here.</li>
+    </ul>
+</div>

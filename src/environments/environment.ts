@@ -3,6 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  BASE_URL: 'https://adrian.oktapreview.com',
+  ISSUER: 'https://adrian.oktapreview.com/oauth2/default',
+  CLIENT_ID: '0oalsdtagdf6X2Eky0h7',
+  REDIRECT_URL: window.location.origin + '/login',
+  SCOPES: ['openid', 'profile', 'email'],
   production: false
 };
 

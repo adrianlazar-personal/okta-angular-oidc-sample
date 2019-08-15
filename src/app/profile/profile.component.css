@@ -1,0 +1,14 @@
+li{
+    list-style: none;
+    padding: 5px;
+}
+#tokens{
+    max-width:80vw;
+    padding-right: 35px;
+    display: inline-block;
+}
+#token{
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
